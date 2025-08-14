@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client'
 
 // Home
 import BentoGrid from './home/BentoGrid'
+import Title from './home/Title'
 // Misc
-import DownloadButton from './misc/DownloadButton'
+import Button from './misc/Button'
+import Navbar from './misc/Navbar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <>
+    <Title/>
     <BentoGrid/>
-    <DownloadButton/>
+    <br/> <br/>
+    <Button text="View features"/>
     </>
 )

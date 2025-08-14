@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+.title {
+    font-size: 75px;
+    text-align: center;
+    color: rgb(250, 255, 251);
+    font-family: 'Lexend';
+    text-shadow: 0px 0px 45px #3c7c6a;
+    transform: scale(90%);
+    transition: 0.7s;
+    font-weight: 550;
+    cursor: default;
+}
+
+.title:hover {
+    transform: scale(92%);
+    color: rgb(107, 224, 123);
+    letter-spacing: 1px;
+}

@@ -3,10 +3,33 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>React App</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Neoc</title>
   </head>
   
   <body>
+    <div id="vanta-bg"></div>
     <div id="root"></div>
   </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.fog.min.js"></script>
+  <script>
+VANTA.FOG({
+  el: "#vanta-bg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0x2f4f32,
+  midtoneColor: 0x3c7c6a,
+  lowlightColor: 0x636363,
+  baseColor: 0x0,
+  blurFactor: 0.90,
+  speed: 2.60,
+  zoom: 0.90
+})
+  </script>
+
 </html>

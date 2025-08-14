@@ -1,0 +1,8 @@
+Green text
+rgb(107, 224, 123)
+
+Highlight
+rgb(107, 224, 204)
+
+Glow & Vanta
+#3c7c6a

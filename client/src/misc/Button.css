@@ -17,6 +17,11 @@
   box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
 
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
 .button:hover {
   background: rgb(193, 228, 248);
   color: rgb(0, 0, 0);
@@ -40,12 +45,12 @@
 }
 
 .hoverEffect div {
-  background: rgb(222, 0, 75);
+  background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
-    rgba(222, 0, 75, 1) 0%,
-    rgba(191, 70, 255, 1) 49%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(61, 152, 0) 0%,
+    rgb(0, 191, 67) 49%,
+    rgb(0, 142, 189) 100%
   );
   border-radius: 40rem;
   width: 10rem;
