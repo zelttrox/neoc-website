@@ -6,3 +6,6 @@ rgb(107, 224, 204)
 
 Glow & Vanta
 #3c7c6a
+
+Box background
+rgba(55, 55, 55, 0.322)

@@ -1,8 +1,8 @@
 import './Title.css'
 
-function Title() {
+function Title({ text = "Title" }) {
     return (
-        <p class="title"> Neoc </p>
+        <p class="title"> {text} </p>
     )
 }
 

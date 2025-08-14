@@ -1,0 +1,8 @@
+.flex-docs {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(55, 55, 55, 0.322);
+}
