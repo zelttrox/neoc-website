@@ -13,6 +13,7 @@ import Docs from './home/Docs'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <>
+    <Navbar/>
     <br/> <br/>
     <br/> <br/>
     <br/> <br/>
